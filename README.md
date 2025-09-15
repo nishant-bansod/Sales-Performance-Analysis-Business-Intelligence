@@ -1,101 +1,74 @@
-# Sales-Performance-Analysis-Business-Intelligence
+# Sales Performance Analysis & Business Intelligence
 
-**Company Name:** Electronics Retail Store
+**Company:** Electronics Retail Store  
+**Problem:** Declining sales performance and lack of data-driven insights
 
-**Problem:** Sales performance optimization and business intelligence insights needed
+## Project Overview
 
-## Simple Insights:
+This analysis examines 186,850+ sales transactions to identify performance patterns and optimize retail operations. The project provides actionable insights for inventory management, pricing strategies, and geographic expansion.
 
-• **Revenue breakdown by months** - December shows highest sales performance
-• **Revenue breakdown by cities** - New York, Los Angeles, San Francisco are top-performing cities
-• **Top 5 products by quantity sold** - AAA Batteries leads with highest sales volume
-• **Product performance analysis** - Price-quantity correlation identified for strategic pricing
-• **Market basket analysis** - iPhone + Charging Cable most common product combination
-• **Seasonal trends** - Clear Q4 performance boost across all product categories
+## Key Insights
 
-## Aims Grid:
-
-• **Purpose of the project:** To unlock sales insights that are not visible before for retail operations team for decision support and automate them to reduce manual time spent in data gathering
-
-• **Stakeholders:** Sales Director, Marketing Team, Inventory Management Team, Data and Analytics Team, IT Department
-
-• **End Result:** An automated analysis system providing quick and latest sales insights in order to support data-driven decision making
-
-• **Success Criteria:**
-    - Analysis uncovering sales performance insights with latest data available
-    - Retail team able to take better decisions and prove 15% revenue increase through optimized inventory and pricing
-    - Sales analyst stop data gathering manually in order to save 25% of their business time and reinvest it in value-added activity
-
-## Dataset Information:
-- **Size:** 186,850+ sales transactions
-- **Time Period:** Multi-month sales data
-- **Features:** Order ID, Product, Quantity, Price, Order Date, Purchase Address
-
-## Key Findings:
-
-### 📊 **Seasonal Performance**
 - December is the peak sales month with highest revenue
-- Sales trend shows October-November-December growth pattern
-- Q4 performance optimization opportunities identified
+- New York, Los Angeles, and San Francisco are top-performing cities
+- AAA Batteries is the best-selling product with highest quantity
+- Price-quantity correlation exists for strategic pricing decisions
+- iPhone + Charging Cable is the most common product combination
+- Clear seasonal trends show Q4 performance boost
 
-### 🏙️ **Geographic Analysis**
-- Top 3 Cities: New York, Los Angeles, San Francisco
-- Geographic concentration in major metropolitan areas
-- Expansion strategy recommendations for high-performing cities
+## Business Objectives
 
-### 📱 **Product Performance**
-- Best Seller: AAA Batteries (highest quantity sold)
-- Price-Quantity Correlation: Cheaper products sell more units
-- Strategic pricing opportunities for high-volume items
+**Purpose:** Unlock hidden sales insights for retail operations team to support data-driven decision making and reduce manual data gathering time.
 
-### 🛒 **Market Basket Analysis**
-- Product Bundling Opportunities:
-  - iPhone + Charging Cable
-  - Google Phone + USB-C Cable
-- Cross-selling potential for revenue optimization
+**Stakeholders:** Sales Director, Marketing Team, Inventory Management Team, Data Analytics Team
 
-## Screenshots:
+**Success Criteria:**
+- Provide actionable insights for 15% revenue increase through optimized inventory and pricing
+- Reduce manual data gathering time by 25% for sales analysts
+- Enable data-driven decision making with latest sales performance insights
 
-### 📅 **Monthly Sales Performance Analysis**
-*Shows December as the peak sales month with highest revenue, demonstrating clear seasonal trends and Q4 performance optimization opportunities*
+## Dataset
+
+- **Size:** 186,850+ sales transactions
+- **Period:** Multi-month sales data
+- **Fields:** Order ID, Product, Quantity, Price, Order Date, Purchase Address
+
+## Analysis Results
+
+### Monthly Sales Performance
+Shows December as the peak sales month with highest revenue, demonstrating clear seasonal trends and Q4 performance optimization opportunities.
+
 ![Monthly Sales Performance Analysis](screenShot/Monthly_Sales_Performance_Analysis.png)
 
-### 📊 **Product Performance - Quantity vs Price Analysis**
-*Dual-axis chart revealing AAA Batteries as the best-selling product and demonstrating price-quantity correlation for strategic pricing decisions*
+### Product Performance Analysis
+Dual-axis chart revealing AAA Batteries as the best-selling product and demonstrating price-quantity correlation for strategic pricing decisions.
+
 ![Product Performance - Quantity vs Price Analysis](screenShot/Product_Performance_Quantity_vs_Price.png)
 
-### 🛒 **Market Basket Analysis - Product Combinations**
-*Horizontal bar chart showing iPhone + Charging Cable as the most common product combination, enabling cross-selling strategies*
+### Market Basket Analysis
+Horizontal bar chart showing iPhone + Charging Cable as the most common product combination, enabling cross-selling strategies.
+
 ![Market Basket Analysis - Product Combinations](screenShot/Market_Basket_Analysis_Product_Combinations.png)
 
-## Technologies Used:
-- **Python:** Core programming language
-- **Pandas:** Data manipulation and analysis
-- **NumPy:** Numerical computing
-- **Matplotlib/Seaborn:** Data visualization
-- **PyArrow:** High-performance data format
+## Technical Implementation
 
-## Concept Used:
-- **Data Cleaning:** Missing value treatment, duplicate removal
-- **Feature Engineering:** Month extraction, city parsing, sales calculation
-- **Statistical Analysis:** Aggregation, correlation analysis
-- **Time Series Analysis:** Monthly trends and seasonality
-- **Market Basket Analysis:** Product association rules
-- **Geographic Analysis:** Spatial distribution patterns
-- **Data Visualization:** Multi-dimensional charts and trend analysis
+**Technologies:** Python, Pandas, NumPy, Matplotlib, Seaborn, PyArrow
 
-## Business Impact:
-- **Data-Driven Decisions:** 186K+ transactions analyzed
-- **Revenue Optimization:** Identified seasonal opportunities
-- **Market Intelligence:** Geographic and product insights for strategic planning
-- **Operational Efficiency:** Inventory and pricing optimization recommendations
+**Methods:** Data cleaning, feature engineering, statistical analysis, time series analysis, market basket analysis, geographic analysis, data visualization
 
-## Recommendations:
+## Business Impact
+
+- Analyzed 186K+ transactions for data-driven decisions
+- Identified seasonal opportunities for revenue optimization
+- Provided geographic and product insights for strategic planning
+- Delivered inventory and pricing optimization recommendations
+
+## Recommendations
+
 - Increase inventory and marketing budget for December
 - Focus expansion efforts in New York, Los Angeles, San Francisco
 - Implement dynamic pricing for high-volume, low-price items
 - Bundle iPhone with Charging Cable for cross-selling
 - Pre-stock inventory for October-November-December period
-- Create product bundling strategies for complementary items
 
 

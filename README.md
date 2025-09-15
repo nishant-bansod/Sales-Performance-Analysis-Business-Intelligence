@@ -56,11 +56,17 @@
 
 ## Screenshots:
 
-![Monthly Sales Analysis](screenShot/sale%20by%20months.png)
+### 📅 **Monthly Sales Performance Analysis**
+*Shows December as the peak sales month with highest revenue, demonstrating clear seasonal trends and Q4 performance optimization opportunities*
+![Monthly Sales Performance Analysis](screenShot/Monthly_Sales_Performance_Analysis.png)
 
-![Product Performance Analysis](screenShot/product%20qaulity.png)
+### 📊 **Product Performance - Quantity vs Price Analysis**
+*Dual-axis chart revealing AAA Batteries as the best-selling product and demonstrating price-quantity correlation for strategic pricing decisions*
+![Product Performance - Quantity vs Price Analysis](screenShot/Product_Performance_Quantity_vs_Price.png)
 
-![Market Basket Analysis](screenShot/product%20combination.png)
+### 🛒 **Market Basket Analysis - Product Combinations**
+*Horizontal bar chart showing iPhone + Charging Cable as the most common product combination, enabling cross-selling strategies*
+![Market Basket Analysis - Product Combinations](screenShot/Market_Basket_Analysis_Product_Combinations.png)
 
 ## Technologies Used:
 - **Python:** Core programming language
@@ -92,8 +98,4 @@
 - Pre-stock inventory for October-November-December period
 - Create product bundling strategies for complementary items
 
----
 
-**Project Completion:** [Current Date]  
-**Total Analysis Time:** [Your estimated time]  
-**Business Value:** High-impact insights for retail optimization
